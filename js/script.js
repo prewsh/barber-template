@@ -45,3 +45,51 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+
+  // owl carousel 
+
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    // margin:10,
+    autoplay:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
+$('.owl-carousel2').owlCarousel({
+  loop:true,
+  // margin:10,
+  responsiveClass:true,
+  autoplay:true,
+  responsive:{
+      0:{
+          items:1,
+          nav:false,
+          margin:10,
+      },
+      600:{
+          items:3,
+          nav:false
+      },
+      1000:{
+          items:3,
+          nav:false,
+          loop:false
+      }
+  }
+})

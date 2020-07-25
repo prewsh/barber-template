@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6{
     box-sizing: border-box;
 }
 
+.btn:hover{
+    background: #f2a26542;
+    color: #e5e5e5;
+}
+
 .section-intro img{
     width: 100%;
     /* height: 100%; */
@@ -121,10 +126,7 @@ h1, h2, h3, h4, h5, h6{
 .Hero-Area-btn{
     margin-top: 105px;
 }
-.Hero-Area-btn:hover{
-    background: #2228315e;
-    color: #f2a265;
-}
+
 /* Hero styling ends here  */
 
 
@@ -395,17 +397,22 @@ footer p{
     text-align: right;
 }
 
+
+
 .spacer-img{
-    padding: 0px 40px;
+    padding: 0px 70px;
+}
+
+.spacer-img img{
+    width: 100px;
+    height: 100px;
 }
 
 .addresses{
-    margin: 28px 0px;
+    margin: 30px 0px;
 }
 
 .footer-social > img{
-    background-color: #eeeeee;
-    padding: 10px;
     margin-bottom: 30px;
     margin-right: 12px;
 }
@@ -446,6 +453,28 @@ footer p{
     background: none;
     cursor: pointer;
   }
+
+
+/* owl carousel styling starts  */
+
+.owl-stage{
+    display: flex;
+}
+
+.owl-dots{
+    display: none;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: unset !important;
+}
+
+/* owl caroousel ends haere  */
   
 
 
@@ -542,6 +571,10 @@ footer p{
 
     .spacer-img {
         /* padding: 0px 40px; */
+        display: none;
+    }
+
+    .email-address :nth-child(2){
         display: none;
     }
 }
