@@ -65,8 +65,8 @@ $(document).ready(function(){
         },
         1000:{
             items:1,
-            nav:true,
-            loop:false
+            nav:false,
+            loop:true
         }
     }
 })
