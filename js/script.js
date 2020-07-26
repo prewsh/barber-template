@@ -49,10 +49,11 @@ $(document).ready(function(){
 
   // owl carousel 
 
-  $('.owl-carousel').owlCarousel({
+  $('.owl2').owlCarousel({
     loop:true,
     // margin:10,
     autoplay:true,
+    dots: true,
     responsiveClass:true,
     responsive:{
         0:{
@@ -61,35 +62,36 @@ $(document).ready(function(){
         },
         600:{
             items:1,
-            nav:false
+            nav:true
         },
         1000:{
             items:1,
-            nav:false,
+            nav:true,
             loop:true
         }
     }
 })
 
-$('.owl-carousel2').owlCarousel({
+$('.owl1').owlCarousel({
   loop:true,
+  dots:true,
   // margin:10,
   responsiveClass:true,
   autoplay:true,
   responsive:{
       0:{
           items:1,
-          nav:false,
+          nav:true,
           margin:10,
       },
       600:{
           items:3,
-          nav:false
+          nav:true
       },
       1000:{
           items:3,
-          nav:false,
-          loop:false
+          nav:true,
+          // loop:false
       }
   }
 })

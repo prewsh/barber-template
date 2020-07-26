@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5, h6{
 
 .client-pic{
     position: absolute;
-    top: -15%;
+    top: -8%;
     left: 5%;
 }
 
@@ -421,7 +421,7 @@ footer p{
     color: #e5e5e5;
     background-color: #e5e5e5;
     width: 100%;
-    border: 2px solid;
+    border: 0.5px solid;
 }
 
 .footer-copyright{
@@ -461,8 +461,8 @@ footer p{
     display: flex;
 }
 
-.owl-dots{
-    display: none;
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin: 0px auto;
 }
 
 .owl-nav{
@@ -472,6 +472,10 @@ footer p{
 .owl-carousel .owl-item img {
     display: inline-block !important;
     width: unset !important;
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow: unset !important;
 }
 
 /* owl caroousel ends haere  */
@@ -585,8 +589,15 @@ footer p{
     }
 
     .client-pic{
-        top: unset
+        top: -1%;
+        left: 0%;
     }
+
+    /* .client-pic {
+        position: absolute;
+        top: unset;
+        left: unset;
+    } */
 
     .services-text-area {
         padding-top: 20.89px;
