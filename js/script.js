@@ -73,7 +73,7 @@ $(document).ready(function(){
 })
 
 $('.owl1').owlCarousel({
-  loop:true,
+  // loop:true,
   dots:true,
   // margin:10,
   responsiveClass:true,
@@ -83,14 +83,17 @@ $('.owl1').owlCarousel({
           items:1,
           nav:true,
           margin:10,
+          loop: true
       },
       600:{
           items:3,
-          nav:true
+          nav:true,
+          loop: false
       },
       1000:{
           items:3,
           nav:true,
+          loop: false,
           // loop:false
       }
   }
